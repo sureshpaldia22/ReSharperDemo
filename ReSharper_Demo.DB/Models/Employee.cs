@@ -1,6 +1,6 @@
 ﻿namespace ReSharper_Demo.DB.Models
 {
-    public partial class Employee
+    public class Employee
     {
         // TODO: what?
         public int? Id { get; set; }
