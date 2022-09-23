@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ReSharper_Demo/obj
+/ReSharper_Demo.DB/bin/Debug/net6.0
+/ReSharper_Demo.DB/obj

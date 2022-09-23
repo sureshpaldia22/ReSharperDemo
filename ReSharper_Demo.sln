@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper_Demo", "ReSharper_Demo\ReSharper_Demo.csproj", "{74D6736D-F891-4D8C-9A24-C8181EB2C201}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper_Demo.DB", "ReSharper_Demo.DB\ReSharper_Demo.DB.csproj", "{D6C005AB-ED71-45DE-B575-33D1DBB1F038}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74D6736D-F891-4D8C-9A24-C8181EB2C201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D6736D-F891-4D8C-9A24-C8181EB2C201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D6736D-F891-4D8C-9A24-C8181EB2C201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D6736D-F891-4D8C-9A24-C8181EB2C201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C005AB-ED71-45DE-B575-33D1DBB1F038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C005AB-ED71-45DE-B575-33D1DBB1F038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C005AB-ED71-45DE-B575-33D1DBB1F038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C005AB-ED71-45DE-B575-33D1DBB1F038}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85B607E7-FEA9-4149-8F6D-D44C52173A48}
+	EndGlobalSection
+EndGlobal
