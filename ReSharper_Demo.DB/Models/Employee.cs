@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace ReSharper_Demo.DB.Models
+﻿namespace ReSharper_Demo.DB.Models
 {
     public partial class Employee
     {
