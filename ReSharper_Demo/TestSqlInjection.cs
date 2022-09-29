@@ -1,10 +1,7 @@
-﻿using ReSharper_Demo.DB.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 using Microsoft.EntityFrameworkCore;
+using ReSharper_Demo.DB.Models;
+using System.Linq;
 
 namespace ReSharper_Demo
 {
@@ -15,6 +12,18 @@ namespace ReSharper_Demo
         public TestSqlInjection()
         {
             _dbContext = new ReSharper_DemoContext();
+            string b = "";
+
+            try
+            {
+                if (1 == 1)
+                {
+                    Console.WriteLine("What?");
+                }
+            }
+            catch
+            {
+            }
         }
 
         public void Test()
