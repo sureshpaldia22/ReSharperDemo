@@ -6,7 +6,7 @@ namespace ReSharper_Demo
     {
         static void Main(string[] args)
         {
-            var test1 = new TestUnreachableCode();
+            var test1 = new TestSqlInjection();
             test1.Test();
         }
     }
