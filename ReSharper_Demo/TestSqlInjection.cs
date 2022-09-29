@@ -1,10 +1,6 @@
-﻿using ReSharper_Demo.DB.Models;
-using System;
-using System.Collections.Generic;
+﻿using Microsoft.EntityFrameworkCore;
+using ReSharper_Demo.DB.Models;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
 
 namespace ReSharper_Demo
 {
