@@ -23,6 +23,7 @@ namespace ReSharper_Demo
         {
             int b = employees.Count();
             int b2 = b;
+            int c = b2;
             foreach (Employee a in employees)
             {
                 Console.WriteLine(a.Id);
