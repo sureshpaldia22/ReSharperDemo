@@ -22,6 +22,7 @@ namespace ReSharper_Demo
         private void DoSomething(IEnumerable<Employee> employees)
         {
             int b = employees.Count();
+            int b2 = b;
             foreach (Employee a in employees)
             {
                 Console.WriteLine(a.Id);
