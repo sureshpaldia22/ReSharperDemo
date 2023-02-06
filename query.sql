@@ -1,0 +1,1 @@
+SELECT * FROM dbo.HELLO WHERE 1 = 1
